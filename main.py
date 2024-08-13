@@ -15,11 +15,11 @@ codigos_produtos = {
     'Fantauva' : '111111111113',
     'Fantalaranja' : '111111111114',
     'Sprite' : '111111111115',
-    'Cha-mate' : '111111111116',
+    'tang' : '111111111116',
     'Sucouva' : '111111111117',
     'Sucolaranja' : '111111111118',
-    'Arroz' : '111111111119',
-    'Brigadeiro' : '222222222222'}
+    'nescau' : '111111111119',
+    'toddy' : '222222222222'}
 
 for produto in codigos_produtos:
     codigo = codigos_produtos[produto]
@@ -31,11 +31,11 @@ for produto in codigos_produtos:
 # imagem_qrcode.save(qrcode.png)
 
 links_produtos = {
-    'Steam' : 'https://steamcommunity.com/id/Nakrou',
-    'GamersClub' : 'https://gamersclub.com.br/player/480257',
-    'Instagram' : 'https://www.instagram.com/zuzangado/',
-    'Twitter' : 'https://twitter.com/ArturZuza',
-    'Site' : 'linktr.ee/ArturZuza'}
+    'Instagram' : 'aqui vai o link do seu instagram',
+    'Twitter' : 'aqui vai o link do seu twitter',
+    'Threads' : 'aqui vai o link do seu threads',
+    'Steam' : 'aqui vai o link da sua steam',
+    'Site' : 'aqui vai o link do seu site'}
 
 
 for produtoqr in links_produtos:
